@@ -26,3 +26,15 @@ endpoints:
   visibility: Public
   context: /greeting6657
   schemaFilePath: greeting_6657_openapi.yaml
+- name: Greeting 8080
+  port: 6657
+  type: REST
+  visibility: Public
+  context: /greeting8080
+  schemaFilePath: greeting_8080_openapi.yaml
+- name: Greeting 9876
+  port: 6657
+  type: REST
+  visibility: Public
+  context: /greeting9876
+  schemaFilePath: greeting_9876_openapi.yaml
